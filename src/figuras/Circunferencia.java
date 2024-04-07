@@ -4,16 +4,26 @@ public class Circunferencia {
 
 	private double radio;
 	private String color;
+<<<<<<< HEAD
 	
 
 	public Circunferencia(double radio) {
 		this.radio = radio;
 		
+=======
+
+	public Circunferencia(double radio) {
+		this.radio = radio;
+>>>>>>> refactorizando
 	}
 
 	public void imprimir() {
 		color = "rojo";
+<<<<<<< HEAD
 		System.out.println("Di�metro: " + (2 * radio));
+=======
+		System.out.println("Di�metro: " + 2 * radio);
+>>>>>>> refactorizando
 		System.out.println("Color: " + color);
 		double area = 2 * 3.1416 * radio * radio;
 		System.out.println(area);
